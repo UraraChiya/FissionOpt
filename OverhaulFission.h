@@ -1,6 +1,6 @@
 #ifndef _OVERHAUL_FISSION_H_
 #define _OVERHAUL_FISSION_H_
-#include <xtensor/xtensor.hpp>
+#include <xtensor/containers/xtensor.hpp>
 #include <optional>
 #include <variant>
 #include <vector>
