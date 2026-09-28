@@ -67,6 +67,8 @@ $(() => { FissionOpt().then((FissionOpt) => {
       fuelPresets[fuel].append(' ').append(link);
     }
   };
+  addFuelPreset("IC2", "Enriched Uranium", 600, 113, 102);
+  addFuelPreset("IC2", "MOX",     630, 169, 94);
   addFuelPreset("OX", "TBU",      125, 40, 234);
   addFuelPreset("OX", "LEU-233",  110, 216, 78);
   addFuelPreset("OX", "HEU-233",  115, 648, 39);
