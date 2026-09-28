@@ -1,4 +1,4 @@
-#include <xtensor/xnpy.hpp>
+#include <xtensor/io/xnpy.hpp>
 #include "OverhaulFissionNet.h"
 
 int main() {
