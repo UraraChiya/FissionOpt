@@ -1,5 +1,5 @@
-#include <xtensor/xio.hpp>
-#include <xtensor/xrandom.hpp>
+#include <xtensor/io/xio.hpp>
+#include <xtensor/generators/xrandom.hpp>
 #include "OverhaulFissionNet.h"
 
 namespace OverhaulFission {

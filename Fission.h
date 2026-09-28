@@ -1,6 +1,6 @@
 #ifndef _FISSION_H_
 #define _FISSION_H_
-#include <xtensor/xtensor.hpp>
+#include <xtensor/containers/xtensor.hpp>
 #include <string>
 
 namespace Fission {

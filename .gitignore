@@ -1,0 +1,4 @@
+# Local development dependencies
+emsdk/
+xtensor/
+xtl/
