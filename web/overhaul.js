@@ -41,6 +41,7 @@ $(() => { FissionOpt().then((FissionOpt) => {
   const fuelPresetContent = $('#fuelPresets tr').last();
   $('#newFuel').click(addFuel);
   const addFuelPreset = (type, fuel, efficiency, heat, criticality, selfPriming) => {
+    efficiency *= 6 // In E2:E-E, efficiency is 6 times higher.
     const link = $('<a href="javascript:;">' + type + '</a>');
     link.click(() => {
       if (opt !== null)
@@ -67,8 +68,8 @@ $(() => { FissionOpt().then((FissionOpt) => {
       fuelPresets[fuel].append(' ').append(link);
     }
   };
-  addFuelPreset("IC2", "Enriched Uranium", 600, 113, 102);
-  addFuelPreset("IC2", "MOX",     630, 169, 94);
+  addFuelPreset("IC2", "Enriched Uranium", 100, 113, 102);
+  addFuelPreset("IC2", "MOX",     105, 169, 94);
   addFuelPreset("OX", "TBU",      125, 40, 234);
   addFuelPreset("OX", "LEU-233",  110, 216, 78);
   addFuelPreset("OX", "HEU-233",  115, 648, 39);
