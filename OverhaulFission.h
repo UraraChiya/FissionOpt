@@ -18,8 +18,8 @@ namespace OverhaulFission {
   constexpr int shieldHeatPerFlux(5);
   constexpr int neutronReach(4);
   constexpr int coolingRates[] {
-    60, 55, 115, 75, 70, 90, 110, 130, 95, 85, 165, 50, 100, 185, 135, 80, 120,
-    65, 105, 125, 150, 180, 175, 160, 155, 170, 140, 145, 195, 200, 190, 205
+    55, 50, 85, 80, 70, 105, 90, 100, 110, 115, 145, 65, 95, 200, 195, 75, 120,
+    60, 160, 130, 125, 150, 175, 170, 165, 180, 140, 135, 185, 190, 155, 205
   };
 
   namespace Tiles { enum {
